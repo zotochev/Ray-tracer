@@ -56,7 +56,7 @@ all:		$(NAME)
 %.o:		%.c $(HEADER)
 		$(CC) -g -c $< -o ${<:.c=.o}
 
-$(LIBFT_DIR)/(LIBFT):
+$(LIBFT_DIR)/$(LIBFT):
 			$(MAKE) -C $(LIBFT_DIR)
 
 $(MLX_DIR)/$(MLX):
