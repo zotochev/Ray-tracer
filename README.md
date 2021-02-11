@@ -7,5 +7,5 @@ Executable arguments
 				to file with .bmp extension ("--save" is an optional argument). 
 
 requirements
-* build-essential
-* xorg openbox
+* build-essential xorg openbox libx11-dev libxext-dev libbsd-dev
+
