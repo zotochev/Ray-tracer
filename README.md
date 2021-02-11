@@ -1,5 +1,5 @@
 # miniRT
-To build an executable run make command in root (of a project) folder
+To build an executable run **make** command in root (of a project) folder
 
 Executable arguments
 	1	-	file with .rt extension containing scene description
