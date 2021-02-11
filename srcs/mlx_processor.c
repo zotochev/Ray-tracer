@@ -49,7 +49,7 @@ void	pixels_to_canvas(t_data *data, t_image *image)
 
 int		key_hook_processor(int key_hook, t_data *data)
 {
-	if (key_hook == 48)
+	if (key_hook == 48 || key_hook == 65289)
 	{
 		if (data->current_camera->next != NULL)
 			data->current_camera = data->current_camera->next;
@@ -61,7 +61,7 @@ int		key_hook_processor(int key_hook, t_data *data)
 		mlx_put_image_to_window(
 				data->id, data->window, data->image.img, 0, 0);
 	}
-	else if (key_hook == 53)
+	else if (key_hook == 53 || key_hook == 65307)
 	{
 		free_scene(&(data->scene));
 		w_close(data);
