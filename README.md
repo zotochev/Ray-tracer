@@ -6,6 +6,5 @@ Executable arguments
 	2	-	"--save" key implements saving of the rendered scene 
 				to file with .bmp extension ("--save" is an optional argument). 
 
-requirements
-* build-essential xorg openbox libx11-dev libxext-dev libbsd-dev
+**requirements:** build-essential xorg openbox libx11-dev libxext-dev libbsd-dev
 
