@@ -44,7 +44,7 @@ t_image		*render(t_scene *scene, t_camera *camera)
 		ft_putnbr_fd(y * 100 / scene->resolution->height, 1);
 		ft_putchar_fd('\r', 1);
 	}
-	ft_putstr_fd("Rendering is complite\n", 1);
+	ft_putstr_fd("Rendering is complete\n", 1);
 	free_lam(lam);
 	return (scene->image);
 }
