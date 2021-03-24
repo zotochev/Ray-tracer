@@ -1,4 +1,3 @@
-# miniRT
 To build an executable run **make** command in root (of a project) folder
 
 Executable arguments  
